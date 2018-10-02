@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "922824103315",
+    "firebase_url": "https://printforme-e3e47.firebaseio.com",
+    "project_id": "printforme-e3e47",
+    "storage_bucket": "printforme-e3e47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922824103315:android:0d9562dcfe3ab939",
+        "android_client_info": {
+          "package_name": "rawsun.printforme.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922824103315-mksj978b7po62dh86coe9tfdab87je4g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rawsun.printforme.com",
+            "certificate_hash": "de1d3ad56bc0498a53831b14f6241f7bc1827889"
+          }
+        },
+        {
+          "client_id": "922824103315-pmtf3l8nt78uovv9qta9nat30s7e9u7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuo_Pi3pRE87mwZIn7AREaIEXGqXxepGY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922824103315-pmtf3l8nt78uovv9qta9nat30s7e9u7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

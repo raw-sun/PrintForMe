@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="100dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="#E4E4E4"
+    >
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:background="#ffffff"
+        android:elevation="10dp"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="10dp"
+        card_view:cardMaxElevation="12dp"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent"
+        card_view:layout_constraintVertical_bias="0.098">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/shopNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="@string/shop_name"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="270dp"
+                android:layout_height="1dp"
+                android:layout_gravity="right"
+                android:background="#C3D4D6" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_pin_drop_24px" />
+
+                <TextView
+                    android:id="@+id/adressTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/imageView"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="38dp"
+                    android:text="@string/adress"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="270dp"
+                android:layout_height="0.5dp"
+                android:layout_gravity="right"
+                android:background="#C3D4D6" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_local_phone_24px" />
+
+                <TextView
+                    android:id="@+id/phoneNoTextView"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/imageView2"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="38dp"
+                    android:text="@string/phone_number"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="270dp"
+                android:layout_height="1dp"
+                android:layout_gravity="right"
+                android:background="#C3D4D6" />
+
+
+            <Button
+                android:id="@+id/printButton"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/roundbutton"
+                android:paddingLeft="42dp"
+                android:paddingRight="42dp"
+                android:text="Print"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</android.support.constraint.ConstraintLayout>
